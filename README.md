@@ -1,7 +1,7 @@
 # SustainEnergy
-This repository is used for a college project surrounding sustainability and green practices in business.
+This repository is used for a project surrounding sustainability and green practices in business.
 
-Its central function is as follows:
+Its central function for the project is as follows:
 
 1. Allow users to create accounts for their particular organisation
 2. Allow those users and organisations to engage in sustainable practices and earn points for their progress and improvement
@@ -18,3 +18,5 @@ The points thresholds are currently set to:
 If these are to be changed then ensure that you also change the SQL trigger in the database, this automatically changes a users award field when a new threshold is met by a user.
 
 There is an export of the database structure in the folder that you can import into your database server.
+
+Tools.php contains a custom function list with various functions that have been used throughout the project.
